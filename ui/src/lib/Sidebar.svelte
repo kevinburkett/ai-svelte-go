@@ -46,6 +46,13 @@ const items = [
 .icon {
   width: 24px;
   height: 24px;
+  flex-shrink: 0;
+  fill: currentColor;
+}
+
+.nav-item:hover .icon {
+  background-color: #555;
+  border-radius: 4px;
 }
 .nav-item span {
   margin-left: 1rem;
